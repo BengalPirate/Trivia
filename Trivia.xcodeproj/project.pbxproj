@@ -17,6 +17,8 @@
 		9926AB4529DFAE1500860532 /* TriviaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9926AB4429DFAE1500860532 /* TriviaUITests.swift */; };
 		9926AB4729DFAE1500860532 /* TriviaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9926AB4629DFAE1500860532 /* TriviaUITestsLaunchTests.swift */; };
 		9926AB5429DFB8FA00860532 /* TriviaQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9926AB5329DFB8FA00860532 /* TriviaQuestion.swift */; };
+		FF38CF8B2BA7BD0E00094C85 /* UIPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF38CF8A2BA7BD0E00094C85 /* UIPickerView.swift */; };
+		FF38CF8F2BA8DF4900094C85 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF38CF8E2BA8DF4900094C85 /* SettingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		9926AB4429DFAE1500860532 /* TriviaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaUITests.swift; sourceTree = "<group>"; };
 		9926AB4629DFAE1500860532 /* TriviaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9926AB5329DFB8FA00860532 /* TriviaQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaQuestion.swift; sourceTree = "<group>"; };
+		FF38CF8A2BA7BD0E00094C85 /* UIPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPickerView.swift; sourceTree = "<group>"; };
+		FF38CF8E2BA8DF4900094C85 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				9926AB2C29DFAE1400860532 /* Assets.xcassets */,
 				9926AB2E29DFAE1400860532 /* LaunchScreen.storyboard */,
 				9926AB3129DFAE1400860532 /* Info.plist */,
+				FF38CF8A2BA7BD0E00094C85 /* UIPickerView.swift */,
+				FF38CF8E2BA8DF4900094C85 /* SettingViewController.swift */,
 			);
 			path = Trivia;
 			sourceTree = "<group>";
@@ -261,10 +267,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF38CF8B2BA7BD0E00094C85 /* UIPickerView.swift in Sources */,
 				9926AB2829DFAE1400860532 /* TriviaViewController.swift in Sources */,
 				9926AB2429DFAE1400860532 /* AppDelegate.swift in Sources */,
 				9926AB5429DFB8FA00860532 /* TriviaQuestion.swift in Sources */,
 				9926AB2629DFAE1400860532 /* SceneDelegate.swift in Sources */,
+				FF38CF8F2BA8DF4900094C85 /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
