@@ -20,7 +20,7 @@ The following **required** functionality is completed:
 The following **optional** features are implemented:
 
   
-- [x] Allow the user to choose a specific category of questions.
+- [ ] Allow the user to choose a specific category of questions.
 - [x] Provide the user feedback on whether each question was correct before navigating to the next.
 
 The following **additional** features are implemented:
